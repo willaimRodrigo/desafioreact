@@ -1,0 +1,10 @@
+.page {
+    background-image: url("../assets/palacio.png");
+    background-size: cover;
+    height: 100vh;
+
+    .title {
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+    }
+}

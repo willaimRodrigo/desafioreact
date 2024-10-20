@@ -23,15 +23,19 @@ export const Page = ({lamparina, setLamparina, count, setCount}) => {
         <main className={style.page}>
             <h1 className={style.title}>
                 "Liberte a magia da programação com a lâmpada de Aladin."
-                </h1>
-            <img 
+            </h1>
+
+            <div className={style.center}>
+               <img 
                 src={ lamparina ? lampada : genio}
                 alt={lamparina ? "Lâmpada mágica" : "GÊnio saindo da lâmpada"} 
                 onClick={trocarLamparina}
-            />
-            <button onClick={clique}>
-                Clique 3 vezes!
-            </button>
+                />
+                <button onClick={clique}>
+                    Clique 3 vezes!
+                </button> 
+            </div>
+            
         </main>
     )
 }

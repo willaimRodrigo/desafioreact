@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Page } from './Page';
 
-
+import "./Styles/index.scss";
 
 function App() {
   const [count, setCount] = useState(0);

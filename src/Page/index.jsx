@@ -2,8 +2,8 @@ import genio from "../assets/genio.png";
 import lampada from "../assets/lampada.png";
 import style from "./style.module.scss";
 
-export const Page = ({lamparina, setLamparina, count, setCount}) => {
-    
+export const Page = ({ lamparina, setLamparina, count, setCount }) => {
+
 
     const trocarLamparina = () => {
         setLamparina(!lamparina)
@@ -26,16 +26,16 @@ export const Page = ({lamparina, setLamparina, count, setCount}) => {
             </h1>
 
             <div className={style.center}>
-               <img 
-                src={ lamparina ? lampada : genio}
-                alt={lamparina ? "Lâmpada mágica" : "GÊnio saindo da lâmpada"} 
-                onClick={trocarLamparina}
+                <img
+                    src={lamparina ? lampada : genio}
+                    alt={lamparina ? "Lâmpada mágica" : "GÊnio saindo da lâmpada"}
+                    onClick={trocarLamparina}
                 />
                 <button onClick={clique}>
                     Clique 3 vezes!
-                </button> 
+                </button>
             </div>
-            
+
         </main>
     )
 }

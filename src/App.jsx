@@ -9,11 +9,11 @@ function App() {
 
   return (
     <>
-      <Page lamparina={lamparina} setLamparina={setLamparina} 
-      count={count} setCount={setCount}
+      <Page lamparina={lamparina} setLamparina={setLamparina}
+        count={count} setCount={setCount}
       />
     </>
   )
-}
+};
 
-export default App
+export default App;

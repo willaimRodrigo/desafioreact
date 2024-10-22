@@ -28,7 +28,7 @@ export const Page = ({ lamparina, setLamparina, count, setCount }) => {
             <div className={style.center}>
                 <img
                     src={lamparina ? lampada : genio}
-                    alt={lamparina ? "Lâmpada mágica" : "GÊnio saindo da lâmpada"}
+                    alt={lamparina ? "Lâmpada mágica" : "Gênio saindo da lâmpada"}
                     onClick={trocarLamparina}
                 />
                 <button onClick={clique}>

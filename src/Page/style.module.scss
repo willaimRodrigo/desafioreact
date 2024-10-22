@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 1009px;
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -20,6 +20,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @media (max-width: 768px) {
+            font-size: 20px;
+            line-height: 27.14px;
+        }
     }
 
     .center {
@@ -27,10 +32,21 @@
         flex-direction: column;
         align-items: center;
         height: 772px;
+
+        @media (max-width: 768px) {
+            display: flex;
+            justify-content: space-evenly;
+        }
     }
 
     img {
         height: 740px;
+
+        @media (max-width: 768px) {
+            max-width: 400px;
+            height: 422px;
+            margin-top: 50px;
+        }
     }
 
     button {
@@ -44,5 +60,14 @@
         font-weight: 400;
         font-size: 40px;
         line-height: 54.28px;
+
+        @media (max-width: 768px) {
+            width: 200px;
+            height: 65px;
+            background-color: var(--color-mobile);
+            font-size: 20px;
+            line-height: 27.14px;
+            margin-bottom: 30px;
+        }
     }
 }

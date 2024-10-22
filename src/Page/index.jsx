@@ -39,3 +39,31 @@ export const Page = ({lamparina, setLamparina, count, setCount}) => {
         </main>
     )
 }
+
+
+
+
+
+
+
+// const trocarLampada = () => {
+  //   setLampada(!lampada)
+  // }
+
+  // const clique = () => {
+  //   setCount (count + 1);
+  // }
+
+  
+  
+
+  // <button onClick={() => {
+  //       setCount (count - 1);
+  //     }}>0</button>
+  //     <button onClick={clique}>{count}</button>
+
+  //     <img src={
+  //       lampada ? "" : ""
+  //     } 
+  //     alt=''
+  //     onClick={trocarLampada}/>

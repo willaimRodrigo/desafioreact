@@ -8,6 +8,7 @@
     align-items: center;
     flex-direction: column;
 
+
     .title {
         color: var(--color-secundary);
         text-align: center;
@@ -25,6 +26,7 @@
             font-size: 20px;
             line-height: 27.14px;
         }
+
     }
 
     .center {
@@ -40,7 +42,7 @@
     }
 
     img {
-        height: 740px;
+        height: 640px;
 
         @media (max-width: 768px) {
             max-width: 400px;
